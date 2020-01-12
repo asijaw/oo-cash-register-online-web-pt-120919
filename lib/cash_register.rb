@@ -17,6 +17,7 @@ class CashRegister
   end
   
   def cash_register.apply_discount
-    return 
+    return "There is no discount to apply."
+  end
   
 end
