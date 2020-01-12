@@ -1,1 +1,2 @@
-class Ca
+class CashRegister
+  attr_accessor :cash_register, :
