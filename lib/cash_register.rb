@@ -7,9 +7,13 @@ class CashRegister
   end
   
   def add_item(name, price, quantity = 1)
+    i = 0
+    while i < quantity
+      self.items << name
+    end
     self.transaction = price * quantity
     self.total = self.total + (price * quantity)
-    quantity.times {|product| items << name}
+    
   end
   
   def apply_discount
