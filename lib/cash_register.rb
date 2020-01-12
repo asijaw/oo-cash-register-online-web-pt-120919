@@ -12,9 +12,9 @@ class CashRegister
   end
   
   def apply_discount
-    if 
-    self.total = self.total - (self.total * (self.discount / 100.0))
-    return "After the discount, the total comes to $#{self.total.to_i}."
+    if discount > 0 
+      self.total = self.total - (self.total * (self.discount / 100.0))
+      return "After the discount, the total comes to $#{self.total.to_i}."
   end
   
   def cash_register.apply_discount
