@@ -16,5 +16,7 @@ class CashRegister
     return "After the discount, the total comes to $#{self.total.to_i}."
   end
   
+  def cash_register.apply_discount
+    return 
   
 end
