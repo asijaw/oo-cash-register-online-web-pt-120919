@@ -2,7 +2,7 @@ class CashRegister
   attr_accessor :cash_register, :cash_register_with_discount, :total, :discount, :transaction, :purchased_foods
   
   def initialize(discount = 0)
-    @purchased_foods = []
+    #@purchased_foods = []
     @total = 0 
     @discount = discount
   end
