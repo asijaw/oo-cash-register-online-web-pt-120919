@@ -8,6 +8,6 @@ class CashRegister
   
   def add_item(name, price, quantity = 1)
     self.last_transaction = price * quantity
-    self.total = price * quantity
+    self.total = total + p(rice * quantity)
   end
 end
