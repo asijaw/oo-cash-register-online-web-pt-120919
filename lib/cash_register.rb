@@ -11,6 +11,7 @@ class CashRegister
     i = 0
     while i < quantity
       self.items << name
+      i +=1
     end
     self.transaction = price * quantity
     self.total = self.total + (price * quantity)
